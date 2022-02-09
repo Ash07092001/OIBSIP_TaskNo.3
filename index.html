@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+<body>
+    <div><i class="fas fa-thermometer-half ico"></i></div>
+    <h1 style="text-align: center; margin-bottom: 5%;">Temperature Converter</h1>
+    <div><input type="number" name="temp" id="temp" placeholder="Temperature"></div>
+    <div><select name="metric" id="metric" placeholder="Metric">
+        <option value="c">Celcius</option>
+        <option value="f">Fahrenheit</option>
+        <option value="k">Kelvin</option>
+    </select></div>
+    <div><button onclick="convert()">Convert</button></div>
+    <div><p id="message"></p></div>
+    <script src="index.js"></script>
+</body>
+</html>

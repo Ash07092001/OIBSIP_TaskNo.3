@@ -1,0 +1,63 @@
+body{
+    font-family: 'Questrial';
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+::placeholder{
+    font-family: 'Questrial';
+}
+
+select{
+    font-family: 'Questrial';
+}
+
+option{
+    font-family: 'Questrial';
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+#temp{
+    background: transparent;
+    width: 9.7%;
+    height: 37px;
+    border: 1px solid black;
+}
+
+#metric{
+    background: transparent;
+    width: 10%;
+    height: 40px;
+    border: 1px solid black;
+}
+
+button{
+    background: transparent;
+    margin-top: 1%;
+    width: 10%;
+    height: 40px;
+    border: 1px solid black;
+    font-family: 'Questrial';
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.ico{
+    font-size: 5rem;
+    margin-top: 6%;
+    margin-bottom: 1%;
+}
+
+#message{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
