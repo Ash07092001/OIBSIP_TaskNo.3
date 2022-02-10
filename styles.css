@@ -1,7 +1,7 @@
 body{
     font-family: 'Questrial';
     background-color: #ffffff;
-    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
 }
 
 ::placeholder{
@@ -25,7 +25,7 @@ div{
 
 #temp{
     background: transparent;
-    width: 9.7%;
+    width: 9.5%;
     height: 37px;
     border: 1px solid black;
 }
@@ -42,7 +42,7 @@ button{
     margin-top: 1%;
     width: 10%;
     height: 40px;
-    border: 1px solid black;
+    border: 2px solid black;
     font-family: 'Questrial';
 }
 
